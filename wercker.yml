@@ -8,6 +8,6 @@ build:
         code: |
             $(git clone https://github.com/spf13/herring-cove ./themes/herring-cove)
     - arjen/hugo-build:
-        version: "0.14"
+        version: "1.18.0"
         theme: herring-cove
         flags: --buildDrafts=true
